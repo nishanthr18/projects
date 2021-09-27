@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/logo4.jpeg);
+  /* background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%); */
+  background-size: cover;
+
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.insta{
+  background-color: aliceblue;
+  color: rgb(255, 248, 248);
+  border: 2px solid rgb(103, 216, 103);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: transparent; 
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 5px rgb(225, 217, 217);
+  display: block;
+  margin-right: auto;
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+
+}
+
+.insta:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(241, 234, 234);
+  text-decoration: none;
+}
+
+.contact{
+  align-items: flex-end;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+   padding-left: 6px;
+   align-items: center;
+   display: flexbox;
+   width: 330px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+   nav .social-links{
+   display:block;
+  
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .email{
+  display:flexbox;
+ 
+ }
+}

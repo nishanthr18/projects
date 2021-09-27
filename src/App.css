@@ -1,0 +1,196 @@
+.links{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid rgb(103, 216, 103);
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent;
+    background-color: #55efc4;
+    background-image :linear-gradient(315deg, #55efc4 0%, #000000 74%);
+}
+
+.links:hover, link:active{
+    background-color: rgb(168, 177, 176);
+    color: white;
+
+}
+.links:visited{
+    background-color: cyan;
+}
+
+.links{cursor: grab}
+
+/* .linkedin{
+    background-color: aliceblue;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent; 
+} */
+
+/* .git{
+    background-color: aliceblue;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent;    
+} */
+/* 
+.linkedin{
+    background-color: aliceblue;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent; 
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 5px rgb(225, 217, 217);
+    display: block;
+    margin-right: auto;
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+
+} */
+/* .git{
+    background-color: aliceblue;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent; 
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 5px #eee;
+    display: block;
+    margin-right: auto;
+    background-color: #e84393;
+    background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+
+} */
+
+
+.header{
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+  }
+
+.social-links{
+    display: flex;
+    align-items: center;
+    
+}
+
+.particles {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .Tilt {
+    background: linear-gradient(89deg);
+    border-radius: 2px;
+    height: 150 ;
+    width: 150;
+    display: flex;
+  }
+  .mail{
+    background-color: aliceblue;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(103, 216, 103);
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent; 
+    background-image: linear-gradient(to right, #EB5757 0%, #000000  51%, #EB5757  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 1px rgb(240, 127, 127);
+    border-radius: 15px;
+    display: block;
+  }
+
+  .mail:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ .mailprops{
+     margin-left: auto;
+     margin-right: 10px;
+     /* margin-right: auto; */
+    
+     
+ }
+
+ .mailid{
+     color:white;
+ }
+
+ .search{
+      color: white;
+justify-content: flex-start;
+align-items: flex-start;
+ }
+
+.border{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+.border {
+      display: block;
+      align-items: center;
+    }
+  }
+
+  .host{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .host #video-call{
+           background-color: aliceblue;
+      color: rgb(255, 248, 248);
+      border: 2px solid rgb(103, 216, 103);
+      padding: 5px 10px;
+      text-decoration: none;
+      background: transparent; 
+      background-image: linear-gradient(to right, #EB5757 0%, #000000  51%, #EB5757  100%);
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      box-shadow: 0 0 1px rgb(240, 127, 127);
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+  }
