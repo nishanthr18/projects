@@ -44,11 +44,11 @@ const SocialAccount = () => {
             </a>
           </div>
         </Tilt>
-//         <div className='mailprops'>
-//       <div className=" grow shadow-5">
-//         <a className="mail" href="https://personal-portfolio-nishanth.netlify.app/">
-//           SUBSCRIBE
-//         </a>
+        <div className='mailprops'>
+      <div className=" grow shadow-5">
+        <a className="mail" href="https://personal-portfolio-nishanth.netlify.app/">
+          PORTFOLIO
+        </a>
       </div>
         </div>
     </div>
