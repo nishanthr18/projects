@@ -46,7 +46,7 @@ const SocialAccount = () => {
         </Tilt>
         <div className='mailprops'>
       <div className=" grow shadow-5">
-        <a className="mail" href="https://nishanth-proj-works.netlify.app/">
+        <a className="mail" href="https://personal-portfolio-nishanth.netlify.app/">
           SUBSCRIBE
         </a>
       </div>
